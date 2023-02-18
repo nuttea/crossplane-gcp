@@ -12,7 +12,7 @@ Example
 
 ```bash
 # Set environement variables for Google Cloud
-export GCP_PROJECT_ID="nuttee-lab-00"
+export GCP_PROJECT_ID="<YOUR_PROJECT_ID>"
 export GCP_REGION="asia-southeast1"
 export GCP_ZONE="asia-southeast1-b"
 export GCP_PROJECT_NUMBER=$(gcloud projects describe $GCP_PROJECT_ID --format="value(projectNumber)")
